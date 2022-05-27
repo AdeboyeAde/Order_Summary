@@ -1,16 +1,31 @@
 body {
-    background-image: url(.);
-    background-size: cover;
-}
-
-.mobile {
-    width: 375px;
-}
-
-h1 {
-    color: brown;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 94%);
+    /*background-image: url(./images/pattern-background-desktop.svg);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem 0;
 }
 
 .bg {
+    /*background-color: hsl(225, 100%, 98%);
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 375px;
+}
+
+.mobile {
     
 }
+
