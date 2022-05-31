@@ -26,6 +26,60 @@ body {
 }
 
 .mobile {
-    
+    width: 375px;
+    margin: 0 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.mobile img {
+    width: 375px;
+    border-radius: 16px 16px 0 0;
+}
+
+h1 {
+    font-family: 'Red Hat Display';
+    font-size: 24px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+    margin-top: 36px;
+    margin-bottom: 2px;
+}
+
+p {
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 200;
+    text-align: center;
+    padding: 16px;
+    margin-top: 5px;
+}
+
+.container_plan {
+    background-color: hsl(225, 100%, 98%);
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: auto;
+}
+
+.text {
+    padding: 10px;
+    background-color: blue;
+    margin: 2px;
+}
+
+.year {
+    margin-top: 1px;
+    color: aliceblue;
+    border: 2px solid green;
+    padding: 0;
+}
+
+
+
 
